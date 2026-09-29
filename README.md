@@ -1,32 +1,48 @@
-# React + TypeScript + Vite
+# 🌍 Hisa Global Finance: Stablecoin-to-Equities Explainer & Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **Interactive Video Storyboard, Teleprompter & Step-by-Step Stablecoin Onboarding Guide for Hisa App.**  
+> Built for the official **Hisa Stablecoin Video Explainer ($5,002 USDG Pool)** on [Superteam Earn](https://superteam.fun/earn).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚡ Overview & The Problem Solved
 
-## React Compiler
+Investing in global equities (NVIDIA, Apple, S&P 500) from emerging markets has historically been blocked by:
+- ❌ **Traditional Bank Wire Friction**: $45+ wire fees and 5-day settlement delays.
+- ❌ **Aggressive FX Markups**: 3–7% currency conversion penalties.
+- ❌ **Currency Depreciation**: Local fiat erosion against the US dollar.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Hisa App** solves this by enabling **instant stablecoin deposits (USDC / USDT on Solana)** with:
+- ⚡ **400ms On-Chain Finality**: Sub-penny transfer costs via Solana.
+- 💵 **1:1 USD Buying Power Credit**: Direct 1-click conversion to USD trading balance with zero bank wire intermediary.
+- 📈 **Fractional Shares from $1**: Instant access to US stocks and Nigerian blue chips.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🛠️ Interactive Features & Tooling
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+1. **4-Step Interactive Funding Blueprint**: Step-by-step visual simulation of wallet connection, deposit address generation, instant balance crediting, and trade execution.
+2. **5-Scene Video Storyboard**: Structured video script with visual cues, on-screen text, and narration timing for video creators.
+3. **Teleprompter Studio**: Adjustable-speed teleprompter for recording voiceovers and video pitches.
+4. **Market Explorer**: Real-time simulated stock board across US Tech, Index funds, and African equities.
+
+---
+
+## 🚀 Running Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/sidsri14/hisa-global-finance.git
+cd hisa-global-finance
+
+# Install dependencies
+npm install
+
+# Start local server (Port 5191)
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## 📜 License
+MIT © 2026 Siddharth Srivastava (@sidsri14)
